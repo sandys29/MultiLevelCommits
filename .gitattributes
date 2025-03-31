@@ -1,0 +1,2 @@
+*.diff filter=lfs diff=lfs merge=lfs -text
+*.msg filter=lfs diff=lfs merge=lfs -text
