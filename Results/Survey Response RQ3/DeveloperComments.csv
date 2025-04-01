@@ -1,0 +1,61 @@
+Comment,Choice
+"Having a separate message for each file provides a clearer view of the changes. This approach allows me
+to easily understand the modifications made to each file, particularly when multiple files are involved. By
+seeing the specific changes per file, I can quickly identify any potential issues without having to thoroughly
+review the entire diff. This approach is more efficient and helps me stay organized.","Two Level
+Approach"
+"This approach allows me to quickly understand the modifications made to each file, without having to
+analyze the entire diff. By providing a clear breakdown of changes per file, I can identify what’s changed
+in each file, saving a lot of amount of time and efforts.","Two Level
+Approach"
+"When I am fixing or extending a module, file-level messages make it easier to focus only on the files I
+care about. I don’t need to read the full diff or hunt for relevant lines, just reading the message attached
+to my file gives me the context I need.","Two Level
+Approach"
+"I find the two-level approach super helpful during onboarding or when jumping into unfamiliar parts of the
+codebase. The breakdown per file acts like a quick tour of the commit, and it’s a lot less overwhelming
+than reading one big commit message.","Two Level
+Approach"
+"As a developer, I often deal with commits that touch five or more files. Having a short message for each
+file really helps me understand what changed and why, without having to guess from a single generic
+commit message. It makes code reviews smoother and saves me time.","Two Level
+Approach"
+"The two-level approach is a nice feature, but I don’t think it’s necessary for all commits. For smaller or
+less complex changes, a single commit message is probably enough to get the point across. In those cases,
+the extra file-level messages might feel redundant.","Open to either
+approach"
+"If there aren’t many changes, the file-specific messages don’t add much value. For more complex changes,
+they may help, but for small updates or fixes, a single message usually does the job.","Open to either
+approach"
+"It works well in some cases, but for quick patches or small changes, I find that a single message works
+just fine. The additional file-level messages might be useful for larger, more complicated diffs, but they
+can feel unnecessary when the changes are minor","Open to either
+approach"
+"As a code reviewer, it is important to see how multiple files interact. Two level approach will make my
+work tedious. I would need to analyse several commits rather than one It will complicate version control
+practice.","Traditional
+Approach"
+"If I want to backtrack a file to one of its previous version, this particular change is linked to a change
+in another file and I want to backtrack there too, having just one commit message will save my time in
+finding out the correct version I need to checkout in both the files.","Traditional
+Approach"
+"When changes are grouped by file, the message can focus only on what’s relevant to that file. This makes the commit easier to understand without having to look through unrelated changes.
+
+","Two Level
+Approach"
+"If an issue comes up in a specific file, file-wise commit messages make it simple to trace back through the commit history and understand when and why a change was made.","Two Level
+Approach"
+"I think both approaches have their place. For larger changes involving several files, the two-level method is helpful to quickly locate specific edits. But for smaller updates, a single message is simpler and gets the job done without extra overhead.
+
+","Open to either
+approach"
+"Looking at changes in one file helps the message reflect exactly what happened. Later, when someone checks the history, they can quickly see what was done and why, without confusion.","Two Level
+Approach"
+"In most projects, developers fix bugs or add features by editing one or a few files. Creating messages based on individual files mirrors this natural workflow, making the commit log more intuitive.","Two Level
+Approach"
+"I prefer sticking to one commit message, it keeps the history clean and easier to navigate. Too many messages for every file can clutter the log and make version control harder to maintain","Traditional
+Approach"
+"Sometimes developers make changes in different parts of the code for different reasons. Writing messages for each file helps separate those reasons clearly, making the project easier to maintain.","Two Level
+Approach"
+"In big projects, a single commit can touch many files. Breaking down messages by file helps prevent clutter and keeps the history clean and well-structured.","Two Level
+Approach"
