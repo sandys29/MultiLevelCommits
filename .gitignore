@@ -5,3 +5,4 @@ references.json
 captions*.json
 env
 trial.ipynb
+generated_commit_message*.csv
